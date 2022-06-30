@@ -1,10 +1,10 @@
 .home__container {
     color: rgb(43, 43, 43);
-    height: 50vh;
+    height: 80vh;
 }
 .home__container h1 {
     width: 30rem;
-    margin: 6rem auto 0rem;
+    margin: 10rem auto 0rem auto;
     font-size: 3rem;
 }
 
