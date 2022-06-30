@@ -1,0 +1,6 @@
+.cards__container  {
+    display: inline-flex;
+}
+.card__container {
+    margin-right: 1rem;
+}

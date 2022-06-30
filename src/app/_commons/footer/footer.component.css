@@ -1,10 +1,10 @@
 .footer__container {
-    background-color: rgb(39, 39, 39);
-    height: 12rem;
+    background-color: rgb(43, 43, 43);
+    height: 9rem;
     margin-top: 2rem;
     width: 100vw;
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    bottom: 0;
 }
 .footer-columns {
     display: grid;
@@ -12,21 +12,22 @@
 }
 .footer-columns .left__container {
     display: flex;
-    height: 12rem;
+    height: 9rem;
     justify-content: center;
     align-items: center;
     color: aliceblue;
-    font-size: 2.6rem;
+    font-size: 2.3rem;
 }
 .footer-columns .left__container h2 {
     line-height: 3rem;
     border-right: 1px solid aliceblue;
+    padding-right: 2rem;
 }
 .footer-columns .right__container {
     display: flex;
     align-items: center;
     column-gap: 2rem;
-    height: 12rem;
+    height: 9rem;
     justify-content: center;
 }
 .footer-columns .right__container p {
@@ -34,10 +35,14 @@
     width: 25rem;
 }
 .footer-up {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     justify-self: end;
 }
 .footer-up a {
     color: aliceblue;
     cursor: pointer;
+}
+.footer-rights {
+    background-color: rgb(43, 43, 43);
+    color: aliceblue;
 }

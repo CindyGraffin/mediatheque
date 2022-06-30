@@ -1,22 +1,23 @@
 .nav__container {
     width: 100vw;
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(43, 43, 43);
 }
 .nav-items {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 7rem;
+    height: 9rem;
     column-gap: 3.5rem;
 }
-.nav-items li {
+.nav-items li a {
     color: aliceblue;
     font-size: 1.2rem;
     cursor: pointer;
+    font-weight: 600;
 }
 .nav-items li:nth-child(3) {
     color: aliceblue;
     font-weight: 600;
-    font-size: 2.7rem;
+    font-size: 2.8rem;
     cursor: default;
 }

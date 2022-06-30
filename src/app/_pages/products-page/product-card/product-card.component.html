@@ -1,0 +1,10 @@
+<div class="card__container">
+    <p>{{media.nom}} - {{media.annee}}</p>
+    <span *ngIf="media.img === ''">
+        <img src="../../../../assets/images/singe.jpg" alt="">
+    </span>
+    <span *ngIf="media.img !== ''">
+        <img [src]="media.img" alt="">
+    </span>
+    <p>{{media.description}}</p>  
+</div> 

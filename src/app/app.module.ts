@@ -8,6 +8,9 @@ import { FooterComponent } from './_commons/footer/footer.component';
 import { NotFoundComponent } from './_pages/not-found/not-found.component';
 import { HomePageComponent } from './_pages/home-page/home-page.component';
 import { ProductsPageComponent } from './_pages/products-page/products-page.component';
+import { ProductCardComponent } from './_pages/products-page/product-card/product-card.component';
+import { ProductListComponent } from './_pages/products-page/product-list/product-list.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +19,9 @@ import { ProductsPageComponent } from './_pages/products-page/products-page.comp
     FooterComponent,
     NotFoundComponent,
     HomePageComponent,
-    ProductsPageComponent
+    ProductsPageComponent,
+    ProductCardComponent,
+    ProductListComponent,
   ],
   imports: [
     BrowserModule,
