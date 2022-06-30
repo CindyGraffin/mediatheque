@@ -1,0 +1,8 @@
+h1 {
+    margin: 1rem auto;
+    color: rgb(43, 43, 43);
+    border-bottom: 1px solid;
+    width: max-content;
+    padding-bottom: 0.8rem;
+    margin-bottom: 2rem;
+}

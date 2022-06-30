@@ -1,10 +1,21 @@
-<div class="card__container">
+<div class="card__container" *ngIf="media.synopsis">
     <p>{{media.nom}} - {{media.annee}}</p>
+    <p>Réalisé par: {{media.real}}</p> 
     <span *ngIf="media.img === ''">
         <img src="../../../../assets/images/singe.jpg" alt="">
     </span>
     <span *ngIf="media.img !== ''">
         <img [src]="media.img" alt="">
     </span>
-    <p>{{media.description}}</p>  
+    <p>{{media.synopsis.substring(0, 180)}}...</p>  
+</div> 
+<div class="card__container" *ngIf="!media.synopsis">
+    <p>{{media.nom}} - {{media.annee}}</p>
+    <p>{{media.artiste}}</p> 
+    <span *ngIf="media.img === ''">
+        <img src="../../../../assets/images/singe.jpg" alt="">
+    </span>
+    <span *ngIf="media.img !== ''">
+        <img [src]="media.img" alt="">
+    </span>
 </div> 
