@@ -1,0 +1,43 @@
+.footer__container {
+    background-color: rgb(39, 39, 39);
+    height: 12rem;
+    margin-top: 2rem;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+}
+.footer-columns {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.footer-columns .left__container {
+    display: flex;
+    height: 12rem;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 2.6rem;
+}
+.footer-columns .left__container h2 {
+    line-height: 3rem;
+    border-right: 1px solid aliceblue;
+}
+.footer-columns .right__container {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    height: 12rem;
+    justify-content: center;
+}
+.footer-columns .right__container p {
+    color: aliceblue;
+    width: 25rem;
+}
+.footer-up {
+    font-size: 2.6rem;
+    justify-self: end;
+}
+.footer-up a {
+    color: aliceblue;
+    cursor: pointer;
+}
