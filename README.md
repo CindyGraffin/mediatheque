@@ -31,6 +31,6 @@ ng serve -o
 
 ### 👤Contact
 
-**Graffin Cindy** - Développeuse Javascript Full Stack
-Mon LinkedIn: [LinkedIn](https://www.linkedin.com/in/cindygraffin/) 
-Mon Mail: graffincindy@gmail.com
+**Graffin Cindy** - Développeuse Javascript Full Stack  
+Mon LinkedIn: [LinkedIn](https://www.linkedin.com/in/cindygraffin/)   
+Mon Mail: graffincindy@gmail.com  
